@@ -1154,6 +1154,10 @@ body{
     padding: 10px;
     
   }
+
+  .card:Hover{
+    margin-top: -10px;
+  }
   
   .card img{
     border-radius: 40px 40px 100px 100px ;
