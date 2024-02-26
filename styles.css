@@ -1253,6 +1253,11 @@ body{
 
 @media (max-width: 400px) {
 
+
+  .curso h1{
+    font-size: 40px;
+  }
+
   .cajanos{
     display: flex;
     justify-content: center;
@@ -1315,6 +1320,9 @@ body{
 
 @media (max-width: 376px) {
 
+  .titulonos{
+    font-size: 30px;
+  }
   /*footer*/
   .contenedorfoo{
       display: flex;
@@ -1373,6 +1381,19 @@ body{
 }
 
 @media (max-width: 300px) {
+
+  .curso h1{
+    font-size: 30px;
+  }
+
+  .gastro img{
+    width: 200px;
+    
+  }
+
+  .titulonos{
+    font-size: 25px;
+  }
 
   /*footer*/
   .contenedorfoo{
