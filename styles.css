@@ -761,6 +761,15 @@ body{
   }
 
   /*footer*/
+
+  .nab{
+    height: 300px;
+
+  }
+  .nav-item{
+    height: 70px;
+  }
+
   .contenedorfoo{
     display: flex;
     align-items: center;
