@@ -451,6 +451,7 @@ body{
   background-color: #003857;
 }
 /*eventos*/
+
 /* footer*/
 #footer {
   background-color: #003857;
@@ -800,21 +801,20 @@ body{
 }
 
 .contacto .ul1 ul li{
-    font-size: 17px;
+  font-size: 17px;
 }
 
 .contacto .direc li {
-    margin-top: 20px;
-    align-items: center;
-
+  margin-top: 20px;
+  align-items: center;
 }
 
 .iconos  {
-    margin-top: -25px;
+  margin-top: -25px;
 }
 
 .copyright{
-    font-size: 7px;
+  font-size: 7px;
 }
 
 }
@@ -903,43 +903,45 @@ body{
 }
 
 .cajafimg {
-    display: flex;
-    justify-content: center !important;
-    align-items: center;
-    width: 90% ;
-    margin: 10px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  width: 90% ;
+  margin: 10px;
 }
 
 .contacto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 20px;
-    font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 19px;
 
 }
 
 .contacto .ul1{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 70% !important;    
-    margin-bottom: -30px;
-    margin-left: 20px;  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70% !important;    
+  margin-bottom: -30px;
+  margin-left: 20px;  
 }
 
 .contacto .ul1 ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100% !important;    
-    margin-bottom: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;    
+  margin-bottom: 10px; 
 }
 
 .contacto .ul1 ul li{
-    font-size: 17px;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
 }
 
 .contacto .direc li {
@@ -1033,21 +1035,24 @@ body{
   }
 
   .contacto .ul1 ul li{
-      font-size: 17px;
+    font-size: 17px;
+    text-align: left;
+    width: 100%;
+    font-size: 17px;
   }
 
   .contacto .direc li {
-      margin-top: 20px;
-      align-items: center;
+    margin-top: 20px;
+    align-items: center;
 
   }
 
   .iconos  {
-      margin-top: -25px;
+    margin-top: -25px;
   }
 
   .copyright{
-      font-size: 7px;
+    font-size: 7px;
   }
 
 }
@@ -1082,35 +1087,38 @@ body{
   }
 
   .contacto .ul1{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      width: 100%;    
-      margin-bottom: -30px;
-      margin-left: 20px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;    
+    margin-bottom: -30px;
+    margin-left: 20px; 
   }
 
   .contacto .ul1 ul {
-      display: flex;
-      align-items: center;
-      width: 100%;    
-      margin-bottom: 10px; 
+    display: flex;
+    align-items: center;
+    width: 100%;    
+    margin-bottom: 10px; 
   }
 
   .contacto .ul1 ul li{
-      font-size: 16px;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
   }
 
   .contacto .direc{
-      margin-top: 20px;
+    margin-top: 20px;
   }
 
   .iconos  {
-      margin-top: -25px;
+    margin-top: -25px;
   }
 
   .copyright{
-      font-size: 7px;
+    font-size: 7px;
   }
   
 }
@@ -1266,6 +1274,7 @@ body{
     flex-direction: column;
     width: 95%;
     margin-bottom: 20px;
+    margin-left: -100px;
     font-size: 18px;
       
   }
@@ -1288,7 +1297,8 @@ body{
   }
 
   .contacto .ul1 ul li{
-    
+    text-align: left;
+    width: 100%;
     font-size: 16px;
   }
 
@@ -1314,7 +1324,7 @@ body{
   }
 
   .curso h1{
-    font-size: 40px;
+    font-size: 45px;
   }
 
   .cajanos{
@@ -1376,32 +1386,38 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin-left: 5px;
     margin-bottom: 20px;
       
   }
 
   .contacto .ul1{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     width: 90% !important;   
-    margin-bottom: 0px; 
-    margin-left: 0;
-    margin-bottom: -30px;
+    margin-bottom: -40px;
 
   }
 
   .contacto .ul1 ul {
     display: flex;
-    align-items: center;
     width: 90%;    
     margin-bottom: 0px; 
-    
+
+  }
+
+  .contacto .ul1 ul li {
+    text-align: left;
+    width: 100%;
     
   }
 
   .contacto .direc{
     margin-top: 20px;
+  }
+
+  .contacto .direc li{
+    margin-bottom: 50px;
   }
 
   .iconos  {
@@ -1472,7 +1488,6 @@ body{
     flex-direction: column;
     width: 95%;
     margin-bottom: 20px;
-    
       
   }
 
@@ -1480,6 +1495,7 @@ body{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    margin-left: -60px !important;
     margin-bottom: -20px !important;
     
   }
@@ -1491,23 +1507,31 @@ body{
   }
 
   .contacto .ul1 ul {
-      width: 100%;    
-      margin-bottom: 0px; 
+    width: 100%;    
+    margin-bottom: 0px;  
       
-      
-      
+  }
+
+  .contacto .ul1 ul li {
+    text-align: left;
+    width: 100%;
+    
   }
 
   .contacto .direc{
-      margin-top: 20px;
+    margin-top: 20px;
+  }
+
+  .contacto .direc li{
+    text-align: center;
   }
 
   .iconos  {
-      margin-top: -25px;
+    margin-top: -25px;
   }
 
   .copyright{
-      font-size: 7px;
+    font-size: 7px;
   }
 
  

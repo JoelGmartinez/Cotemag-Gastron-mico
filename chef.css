@@ -5,9 +5,7 @@
 }
 
 /*navbar*/
-#navbar{
-  z-index: 100 !important;
-}
+
 .menu{
   background-color: rgba(255, 255, 255, 0.678)
 }
@@ -137,76 +135,82 @@ ul {
 
 /*Página*/
 
-/* footer */
+/* footer*/
 #footer {
   background-color: #003857;
-  color: white;
-   
+  color: white; 
 }
 
 .contenedorfoo{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  padding-top: 10px;
+  padding: 10px;
 }
 
-.container .imgf{
+.cajafimg  .imgf{
   width: 150px;
   height: 170px;
+  margin-top: 20px;
   border-radius: 100px 100px 100px 100px;
-  
+}
+
+.cajafimg{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .contacto {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 800px;
-  list-style: none;    
+  width: 85%;  
+  font-family: sans-serif; 
 }
 
-.contacto li p{
+.contacto .ul1{
+  height: 70px;
+}
+
+.contacto .direc{
+  width: 300px; 
+}
+
+.contacto ul p{
   color: #d2b862;
   margin-bottom: 10px;
+  font-size: 19px; 
 }
 
-.contacto .li1 ul li, .li2 ul li{
-  margin-bottom: 10px;
-}
-.contacto li {
-  width: 300px;
-  font-family: sans-serif;
-    
+.contacto .ul1 li{
+  margin-left: 20px;
+  margin: 5px;
+  font-size: 16px;
 }
 
-.redes{
+.i-redes{
   display: flex;
-  background-color: #004e79;
-
+  justify-content: center;
+  align-items: start;
+  height: 70px;
 }
 
 .iconos{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  margin: 10px;
   list-style: none;
-  
 }
 
 .iconos a {
   display: block;
-  width: 30px;
-  height: 30px;
-
-  color: white;
-  padding: 10px 0;
+  width: 40px;
+  height: 40px;
+  color: #fff0bf;
+  padding: 10px;
   margin: 10px;
-  margin-bottom: 60px;
   border-radius: 50%;
-  
   transition: 0.5s ease;
 }
 
@@ -223,47 +227,17 @@ ul {
 
 @media (min-width: 2000px) {
 
+/*footer*/
 
-
-
-  /*footer*/
-
-  .contenedorfoo{
-      display: flex;
-      align-items: center;
-      padding-top: 30px;
+  .contacto .direc{
+    margin-right: -150px;
   }
-
   .contacto{
-      display: flex;
-      justify-content: center;
-      margin-bottom: 20px;
+      font-size: 22px;
   }
-  .contacto li{
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 15px;
-      font-size: 20px;     
+  .contacto .ul1 ul li{
+      font-size: 18px;
   }
-
-  .li1{
-      margin-top: 20px;
-  }
-
-  .li2{
-     margin-left: 250px;
-  }
-
-  .li2 ul {
-      display: flex;
-      width: 400px;
-      list-style: circle;
-  }
-
-  .copyright{
-      font-size: 15px;
-  }
-  
   
 }
 
@@ -285,23 +259,7 @@ ul {
 
 
   /*footer*/
-  .contenedorfoo{
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-direction: column;
-  }
-
-  .contacto li{
-      display: flex;
-      flex-direction: column;
-      padding-left: 30px;
-      
-  }
-
-  .li2{
-      margin-left: 200px;
-  }
+ 
   
 }
 
@@ -316,23 +274,63 @@ ul {
   }
 
   /*footer*/
+
   .contenedorfoo{
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
   }
 
-  .contacto li{
-      display: flex;
-      flex-direction: column;
-      padding-left: 30px;
+  .cajafimg {
+    display: flex;
+    justify-content: center !important;
+    width: 90% ;
+    margin: 10px;
+    margin-bottom: 50px !important;
+  }
+
+  .contacto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+  }
+
+  .contacto .ul1{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 100% !important;
+    height: 150px;  
       
   }
 
-  .li2{
-      margin-left: 200px;
+  .contacto .ul1 ul {
+    width: 100% !important; 
+    padding: 0;   
   }
+
+  .contacto .ul1 ul li{
+    font-size: 17px;
+  }
+
+  .contacto .direc li {
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .iconos  {
+    margin-top: -25px;
+  }
+
+  .copyright{
+    font-size: 7px;
+  }
+  
 }
 
 @media (max-width: 800px) {
@@ -342,6 +340,74 @@ ul {
   }
 
 /*footer*/
+.contenedorfoo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+  }
+
+  .cajafimg {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    width: 90% ;
+    margin: 10px;
+  }
+
+  .contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 19px;
+
+  }
+
+  .contacto .ul1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70% !important;    
+    margin-bottom: -30px;
+    margin-left: 20px;  
+  }
+
+  .contacto .ul1 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;    
+    margin-bottom: 10px; 
+  }
+
+  .contacto .ul1 ul li{
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .contacto .direc li {
+    margin-top: 20px;
+    align-items: center;
+
+  }
+
+  .iconos  {
+    margin-top: -25px;
+  }
+
+  .copyright{
+    font-size: 7px;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  /*footer*/
   .contenedorfoo{
     display: flex;
     align-items: center;
@@ -349,94 +415,67 @@ ul {
     padding-top: 15px;
   }
 
-  .contacto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  .contacto li{
-    display: flex;
-    justify-content: center;   
-    margin-bottom: 15px;
-    font-size: 20px;    
-    width: 50%; 
-  }
-
-  .li1{
-    margin-top: 20px;
-      
-  }
-  .li1 .direc{
-    margin-left: -10px;
-    width: 400px;
-      
-  }
-
-  .li2{
-    margin-left: 0px;
-    
-  }
-  .li2 li{
-    width: 200px; 
-    
-  }
-
-  .iconos a i{
-    width: 100px;
-  }
-
-  .copyright{
-    font-size: 10px;
-      
-  }
-}
-
-@media (max-width: 700px) {
-
-
-  /*footer*/
-  .contenedorfoo{
+  .cajafimg {
       display: flex;
+      justify-content: center !important;
+      align-items: center;
+      width: 90% ;
+      margin: 10px;
+  }
+
+  .contacto{
+      display: flex;
+      justify-content: center;
       align-items: center;
       flex-direction: column;
-      padding-top: 15px;
-  }
-
-  .contacto{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      width: 100%;
       margin-bottom: 20px;
+      font-size: 19px;
+
   }
-  .contacto li{
+
+  .contacto .ul1{
       display: flex;
+      justify-content: center;
       flex-direction: column;
-      margin-bottom: 15px;
-      font-size: 20px;     
+      width: 90%;    
+      margin-bottom: -30px;
+      margin-left: 20px; 
+      
   }
 
-  .li1{
+  .contacto .ul1 ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%;    
+      margin-bottom: 10px; 
+  }
+
+  .contacto .ul1 ul li{
+    font-size: 17px;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .contacto .direc li {
     margin-top: 20px;
-    
-  }
-  .li1 .direc{
-    margin-left: -10px;
-   
+    align-items: center;
+
   }
 
-  .li2{
-      margin-left: 0px;
-
+  .iconos  {
+    margin-top: -25px;
   }
 
   .copyright{
-      font-size: 15px;
+    font-size: 7px;
   }
+  
 }
 
 @media (max-width: 600px) {
-
 
   .cardd{
     display: flex;
@@ -454,236 +493,283 @@ ul {
     font-size: 20px;
   }
   /*footer*/
+
   .contenedorfoo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+
+  .cajafimg {
       display: flex;
+      justify-content: center !important;
       align-items: center;
-      flex-direction: column;
-      padding-top: 15px;
+      width: 90% ;
+      margin: 10px;
   }
 
   .contacto{
       display: flex;
-      flex-direction: column;
       justify-content: center;
-      margin-bottom: 20px;
-  }
-  .contacto li{
-      display: flex;
+      align-items: center;
       flex-direction: column;
-      margin-bottom: 15px;
-      font-size: 20px;     
+      width: 95%;
+      margin-bottom: 20px;
+      font-size: 18px;
+      
   }
 
-  .li1{
+  .contacto .ul1{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;    
+      margin-bottom: -30px;
+      margin-left: 20px; 
+  }
+
+  .contacto .ul1 ul {
+    display: flex;
+    align-items: center;
+    width: 100%;    
+    margin-bottom: 10px; 
+  }
+
+  .contacto .ul1 ul li{
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .contacto .direc{
     margin-top: 20px;
-    
   }
 
-  .li1 .direc{
-    width:300px;
-  }
-
-  .li2{
-      margin-left: -60px;
-
+  .iconos  {
+    margin-top: -25px;
   }
 
   .copyright{
-      font-size: 15px;
+    font-size: 7px;
   }
+  
 }
 
 @media (max-width: 500px) {
 
-
   /*footer*/
   .contenedorfoo{
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      padding-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
   }
 
-  .container .imgf{
-      margin-left: -50px;
-      
+  .cajafimg {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    width: 90% ;
+    margin: 10px;
   }
 
   .contacto{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-bottom: 20px;
-  }
-  .contacto li{
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 15px;  
-      font-size: 15px;   
-  }
-
-  .li1{
-      margin-top: 20px;
-      margin-left: -100px;
-  }
-  .li1 .direc{
-      margin-left: -10px;
-  }
-
-  .li2 ul {
-      display: flex;
-      flex-direction: column;
-      width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    margin-bottom: 20px;
+    margin-left: -100px;
+    font-size: 18px;
       
   }
 
-  .li2{
-      margin-left: -60px;
+  .contacto .ul1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;    
+    margin-bottom: -30px;
+    margin-left: 20px; 
+  }
+
+  .contacto .ul1 ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;    
+    margin-bottom: 10px; 
+  }
+
+  .contacto .ul1 ul li{
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
 
   }
 
-  .iconos{
-      margin-left: -50px;
+  .contacto .direc{
+    margin-top: 20px;
+  }
+
+  .iconos  {
+    margin-top: -25px;
   }
 
   .copyright{
-      font-size: 8px;
-      margin-left: -50px;
+    font-size: 7px;
   }
+
+
 }
 
 @media (max-width: 400px) {
 
+
+  .cardd {
+    width: 95% !important;
+    
+  }
   /*footer*/
   .contenedorfoo{
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      padding-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+
+  .cajafimg {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    width: 90% ;
+    margin: 10px;
   }
 
   .contacto{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-bottom: 20px;
-  }
-  .contacto li{
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 15px;     
-  }
-
-  .li1{
-      margin-top: 20px;
-      margin-left: -60px;
-  }
-  .li1 .direc{
-      margin-left: -10px;
-  }
-
-  .li2{
-      margin-left: -60px;
-
-  }
-}
-
-@media (max-width: 376px) {
-
-  /*footer*/
-  .contenedorfoo{
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      padding-top: 15px;
-  }
-
-  .container .imgf{
-      margin-left: -50px;
-      
-    }
-
-  .contacto{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-bottom: 20px;
-  }
-  .contacto li{
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 15px;  
-      font-size: 15px;   
-  }
-
-  .li1{
-      margin-top: 20px;
-      margin-left: -60px;
-  }
-  .li1 .direc{
-      margin-left: -10px;
-  }
-
-  .li2 ul {
-      display: flex;
-      flex-direction: column;
-      width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 20px;
       
   }
 
-  .li2{
-      margin-left: -60px;
+  .contacto .ul1{
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;   
+    margin-bottom: -40px;
+    
 
   }
 
+  .contacto .ul1 ul {
+    display: flex;
+    width: 90%;    
+    margin-bottom: 0px; 
+    
+  }
 
-  .iconos{
-      margin-left: -50px;
+  .contacto .ul1 ul li {
+    text-align: left;
+    width: 100%;
+    
+  }
+
+  .contacto .direc{
+    margin-top: 20px;
+  }
+
+  .contacto .direc li{
+    margin-bottom: 50px;
+  }
+
+  .iconos  {
+    margin-top: -25px;
   }
 
   .copyright{
-      font-size: 7px;
-      margin-left: -50px;
+    font-size: 7px;
   }
+ 
 }
+
 
 @media (max-width: 300px) {
 
   /*footer*/
   .contenedorfoo{
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      padding-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+
+  .cajafimg {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    width: 90% ;
+    margin: 10px;
   }
 
   .contacto{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-bottom: 20px;
-  }
-  .contacto li{
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 15px;     
-  }
-
-  .li1{
-      margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    margin-bottom: 20px;
      
   }
-  .li1 .direc{
-      margin-left: -10px;
+
+  .contacto .ul1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: -60px !important;
+    margin-bottom: -20px !important;
+    
   }
 
-  .li2{
-      margin-left: 0px;
+  .contacto .ul1 p{
+    display: flex;
+    width: 100px;    
+    margin-bottom: 0px;
+  }
 
+  .contacto .ul1 ul {
+      width: 100%;    
+      margin-bottom: 0px;  
+      
+  }
+
+  .contacto .ul1 ul li {
+    text-align: left;
+    width: 100%;
+    
+  }
+
+  .contacto .direc{
+    margin-top: 20px;
+  }
+
+  .contacto .direc li{
+    text-align: center;
+  }
+
+  .iconos  {
+    margin-top: -25px;
   }
 
   .copyright{
-      font-size: 7px;
-      margin-left: -50px;
+    font-size: 7px;
   }
+
 }
