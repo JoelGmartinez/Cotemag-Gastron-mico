@@ -228,7 +228,6 @@ ul {
 @media (min-width: 2000px) {
 
 /*footer*/
-
   .contacto .direc{
     margin-right: -150px;
   }
@@ -265,12 +264,9 @@ ul {
 
 @media (max-width: 900px) {
 
-  html{
-    overflow-x: hidden;
-  }
-
-  .cardd p, li{
-    font-size: 10px;
+  .cardd p, .exper{
+    font-size: 12px;
+    font-weight: 500;
   }
 
   /*footer*/
@@ -335,8 +331,9 @@ ul {
 
 @media (max-width: 800px) {
 
-  .cardd p, li{
-    font-size: 10px;
+  .cardd p,.exper{
+    font-size: 12px;
+    font-weight: 500;
   }
 
 /*footer*/
