@@ -688,7 +688,8 @@ ul {
   }
 
   .iconos  {
-    margin-top: -25px;
+    padding: 0px;
+    margin: 0px;
   }
 
   .copyright{
