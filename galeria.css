@@ -587,7 +587,7 @@
 
   .contacto .ul1 ul {
     display: flex;
-    width: 90%;    
+    width: 80% !important;     
     margin-bottom: 0px; 
     
   }
