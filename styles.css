@@ -925,7 +925,7 @@ body{
     justify-content: center;
     flex-direction: column;
     width: 70% !important;    
-    margin-bottom: 30px;
+    margin-bottom: -30px;
     margin-left: 20px;  
 }
 
@@ -1018,7 +1018,7 @@ body{
       justify-content: center;
       flex-direction: column;
       width: 90%;    
-      margin-bottom: 30px;
+      margin-bottom: -30px;
       margin-left: 20px; 
       
   }
@@ -1085,7 +1085,7 @@ body{
       justify-content: center;
       flex-direction: column;
       width: 100%;    
-      margin-bottom: 30px;
+      margin-bottom: -30px;
       margin-left: 20px; 
   }
 
@@ -1274,7 +1274,7 @@ body{
     justify-content: center;
     flex-direction: column;
     width: 100%;    
-    margin-bottom: 30px;
+    margin-bottom: -30px;
     margin-left: 20px; 
   }
 
@@ -1373,6 +1373,7 @@ body{
     width: 90% !important;   
     margin-bottom: 0px; 
     margin-left: 0;
+    margin-bottom: -30px;
 
   }
 
@@ -1381,6 +1382,7 @@ body{
     align-items: center;
     width: 90%;    
     margin-bottom: 0px; 
+    
     
   }
 
@@ -1463,9 +1465,8 @@ body{
   .contacto .ul1{
     display: flex;
     justify-content: flex-start;
-
     flex-direction: column;
-    margin-bottom: 0px;
+    margin-bottom: -20px !important;
     
   }
 
@@ -1478,6 +1479,7 @@ body{
   .contacto .ul1 ul {
       width: 100%;    
       margin-bottom: 0px; 
+      
       
       
   }
