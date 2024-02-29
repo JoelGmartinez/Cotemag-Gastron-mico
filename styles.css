@@ -1319,12 +1319,14 @@ body{
 @media (max-width: 400px) {
 
   .gastro img{
-    margin-left: 10px;
-    width: 280px;
+    justify-content: center;
+    align-items: center;
+    width: 140%;
   }
 
+    
   .curso h1{
-    font-size: 35px;
+    font-size: 38px;
   }
 
   .cajanos{
