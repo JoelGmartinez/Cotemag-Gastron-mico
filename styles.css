@@ -1128,7 +1128,7 @@ body{
 
 /*seccion 1*/
   .curso h1{
-    font-size: 50px;
+    font-size: 45px;
     text-shadow: 0px 3px 4px  #ffffff;
     font-weight: bold;
 
@@ -1320,11 +1320,11 @@ body{
 
   .gastro img{
     margin-left: 10px;
-    width: 500px;
+    width: 280px;
   }
 
   .curso h1{
-    font-size: 45px;
+    font-size: 35px;
   }
 
   .cajanos{
@@ -1396,14 +1396,14 @@ body{
     flex-direction: column;
     width: 90% !important;   
     margin-bottom: -40px;
-
+  
   }
 
   .contacto .ul1 ul {
     display: flex;
-    width: 80% !important;      
+    width: 80% !important;    
     margin-bottom: 0px; 
-
+    
   }
 
   .contacto .ul1 ul li {
@@ -1421,26 +1421,28 @@ body{
   }
 
   .iconos  {
-    margin-top: -25px;
+    padding: 0px;
+    margin: 0px;
   }
 
   .copyright{
     font-size: 7px;
   }
-
  
 }
+ 
+
 
 @media (max-width: 300px) {
 
 
   .gastro img{
     margin-left: 1px;
-    width: 280px !important;
+    width: 250px !important;
   }
 
   .curso h1{
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .gastro img{
@@ -1451,9 +1453,26 @@ body{
   .titulonos{
     font-size: 25px;
   }
+  
+  .nos p{
+    font-size: 9px;
+    width: 200px !important;
+    height: 180px !important;
+    padding-bottom: -40px !important;
+  }
+
+  .imgnos img{
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .imgnos img:hover{
+    width: 250px !important;
+    height: 200px !important;
+  }
 
   .gastro2 img{
-    width: 280px;
+    width: 220px;
   }
 
   .event{
@@ -1496,19 +1515,20 @@ body{
     justify-content: flex-start;
     flex-direction: column;
     margin-left: -60px !important;
-    margin-bottom: -20px !important;
+    margin-bottom: 10px !important;
     
   }
 
   .contacto .ul1 p{
     display: flex;
-    width: 100px;    
-    margin-bottom: 0px;
+    width: 100px; 
+      
+    
   }
 
   .contacto .ul1 ul {
     width: 100%;    
-    margin-bottom: 0px;  
+      
       
   }
 
@@ -1519,15 +1539,20 @@ body{
   }
 
   .contacto .direc{
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px !important; 
   }
 
   .contacto .direc li{
     text-align: center;
+    
   }
 
   .iconos  {
-    margin-top: -25px;
+    margin-top: -50px !important;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
   }
 
   .copyright{

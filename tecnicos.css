@@ -605,6 +605,8 @@
 
   .iconos  {
     margin-top: -25px;
+    padding: 0px;
+    margin: 0px;
   }
 
   .copyright{
@@ -659,7 +661,7 @@
     flex-direction: column;
     width: 100%;    
     margin-bottom: -30px;
-    margin-left: 20px; 
+    margin-left: 20px !important; 
   }
 
   .contacto .ul1 ul {
@@ -683,6 +685,8 @@
 
   .iconos  {
     margin-top: -25px;
+    padding: 0px;
+    margin: 0px;
   }
 
   .copyright{
@@ -761,7 +765,8 @@
   }
 
   .iconos  {
-    margin-top: -25px;
+    padding: 0px;
+    margin: 0px;
   }
 
   .copyright{
@@ -802,6 +807,7 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+
     margin-left: -60px !important;
     margin-bottom: -20px !important;
     
@@ -835,6 +841,8 @@
 
   .iconos  {
     margin-top: -25px;
+    padding: 0px;
+    margin: 0px;
   }
 
   .copyright{
