@@ -129,6 +129,7 @@ body{
   height: 120px;
   margin-left: 50px;
   margin-top: 60px;
+  filter:drop-shadow(1px 1px 5px #d2b862 );
 }
 
 .contac{
@@ -1307,6 +1308,11 @@ body{
 
 @media (max-width: 400px) {
 
+  .gastro img{
+    margin-left: 10px;
+    width: 500px;
+  }
+
   .curso h1{
     font-size: 40px;
   }
@@ -1338,6 +1344,14 @@ body{
     width: 230px !important;
     height: 230px !important;
     
+  }
+
+  .event{
+    width: 300px !important;
+  }
+
+  .event img{
+    height: 200px;
   }
 
   /*footer*/
